@@ -1,29 +1,23 @@
 {
-  "name": "react-hooks",
+  "name": "react-hooks-host",
   "version": "1.0.0",
   "description": "react-hooks + dumi + jest + umd",
   "main": "index.js",
+  "private": "true",
   "scripts": {
-
     "preinstall": "npx only-allow pnpm",
-    "dev": "dumi dev",
+    "prepare": "husky install",
+    "init": "pnpm install && pnpm run build",
     "start": "pnpm run dev",
-
     "clean-dist": "rimraf 'packages/hooks/{lib,es,node_modules,dist}'",
     "clean": "pnpm run clean-dist && rimraf node_modules",
-
-    "build": "pnpm -r filter=./packages/* run build",
+    "dev": "dumi dev",
+    "build": "pnpm -r --filter=./packages/* run build",
     "build:doc": "dumi build",
-
-    "prepare": "husky install",
-    "init": "pnpm install && pnpm build",
-
     "test": "jest",
-    "coveralls": "jest --coveralls --coverageReporters=text-lcov | coveralls",
-
-    "pub": "pnpm run build && pnpm -r filter=./packages/* publish",
-    "pub-beta": "pnpm run build && pnpm -r filter=./packages/* publish --tag beta",
-
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
+    "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
     "encode-fe-lint-scan": "encode-fe-lint scan",
     "encode-fe-lint-fix": "encode-fe-lint fix"
   },
@@ -36,7 +30,7 @@
     "gulp",
     "umd"
   ],
-  "author": "",
+  "author": "hongran",
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^5.0.1",
@@ -59,7 +53,7 @@
     "cross-env": "^7.0.3",
     "del": "^5.1.0",
     "dumi": "^1.1.48",
-    "encode-fe-lint": "^1.0.9",
+    "encode-fe-lint": "^1.0.3",
     "eslint": "^7.2.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "fast-glob": "^3.2.11",
@@ -80,7 +74,7 @@
     "react-drag-listview": "^0.1.6",
     "react-router": "^6.4.2",
     "react-shadow": "^19.0.3",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.4.1",
     "surge": "^0.21.3",
     "ts-jest": "^29.0.5",
     "tslib": "^2.4.1",

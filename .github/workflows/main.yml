@@ -33,4 +33,4 @@ jobs:
         with:
           BRANCH: main
           FOLDER: dist
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.token }}

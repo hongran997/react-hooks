@@ -1,0 +1,19 @@
+{
+  "umi.css": "/encode-hooks/umi.3dfdd0be.css",
+  "umi.js": "/encode-hooks/umi.4106fd08.js",
+  "/~demos/usetoggle-demo1/index.html": "/encode-hooks//~demos/usetoggle-demo1/index.html",
+  "/~demos/usetoggle-demo2/index.html": "/encode-hooks//~demos/usetoggle-demo2/index.html",
+  "404.html": "/encode-hooks/404.html",
+  "_demos/:uuid/index.html": "/encode-hooks/_demos/:uuid/index.html",
+  "public/avatar.png": "/encode-hooks/avatar.png",
+  "guide/index.html": "/encode-hooks/guide/index.html",
+  "hooks/index.html": "/encode-hooks/hooks/index.html",
+  "hooks/use-toggle/index.html": "/encode-hooks/hooks/use-toggle/index.html",
+  "index.html": "/encode-hooks/index.html",
+  "public/logo.png": "/encode-hooks/logo.png",
+  "public/short-logo.png": "/encode-hooks/short-logo.png",
+  "public/style.css": "/encode-hooks/style.css",
+  "public/useExternal/bootstrap-badges.css": "/encode-hooks/useExternal/bootstrap-badges.css",
+  "public/useExternal/test-external-script.js": "/encode-hooks/useExternal/test-external-script.js",
+  "~demos/:uuid/index.html": "/encode-hooks/~demos/:uuid/index.html"
+}

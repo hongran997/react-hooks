@@ -1,7 +1,0 @@
-node_modules
-.umi
-packages/hooks/dist/**/*
-packages/hooks/es/**/*
-packages/hooks/lib/**/*
-package/hooks/metadata.json
-package/hooks/RADEME.md

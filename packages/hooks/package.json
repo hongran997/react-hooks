@@ -12,13 +12,13 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encode-hooks.js",
+  "unpkg": "dist/react-hooks.js",
   "sideEffects": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/encode-studio-fe/encode-hooks",
-  "homepage": "https://github.com/encode-studio-fe/encode-hooks",
+  "repository": "https://github.com/hongran997/react-hooks",
+  "homepage": "https://github.com/hongran997/react-hooks",
   "files": [
     "dist",
     "lib",

@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/react-hooks/',
+  publicPath: '/react-hooks-host/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -20,8 +20,8 @@ export default {
   ],
   title: 'React hooks',
   mode: 'site',
-  favicon: '/react-hooks/avatar.png',
-  logo: '/react-hooks/avatar.png',
+  favicon: '/react-hooks-host/avatar.png',
+  logo: '/react-hooks-host/avatar.png',
   manifest: {},
   hash: true,
   alias: {
@@ -36,7 +36,7 @@ export default {
       rel: 'stylesheet',
       href: 'https://unpkg.com/@alifd/theme-design-pro@0.6.2/dist/next-noreset.min.css',
     },
-    { rel: 'stylesheet', href: '/style.css' },
+    { rel: 'stylesheet', href: '/react-hooks-host/style.css' },
   ],
   navs: [
     { title: '指南', path: 'guide' },

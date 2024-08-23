@@ -1,7 +1,9 @@
 node_modules
 .umi
+.umi-production
+dist
 packages/hooks/dist/**/*
 packages/hooks/es/**/*
 packages/hooks/lib/**/*
-package/hooks/metadata.json
-package/hooks/RADEME.md
+packages/hooks/metadata.json
+packages/hooks/RADEME.md

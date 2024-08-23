@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /encode-hooks/short-logo.png
+  image: /react-hooks/short-logo.png
   desc: 印客学院 React 业务 Hooks
   actions:
     - text: 指南

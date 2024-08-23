@@ -1,4 +1,4 @@
-import { menus } from './hooks.ts';
+import { menus } from './hooks';
 
 export default {
   exportStatic: {},
@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/encode-hooks/',
+  publicPath: '/react-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -18,10 +18,10 @@ export default {
       'fusion',
     ],
   ],
-  title: '印客学院 encode hooks',
+  title: 'React hooks',
   mode: 'site',
-  favicon: '/encode-hooks/avatar.png',
-  logo: '/encode-hooks/avatar.png',
+  favicon: '/react-hooks/avatar.png',
+  logo: '/react-hooks/avatar.png',
   manifest: {},
   hash: true,
   alias: {
@@ -32,11 +32,11 @@ export default {
     includes: ['docs', 'packages/hooks/src'],
   },
   links: [
-    // {
-    //   rel: 'stylesheet',
-    //   href: 'https://unpkg.com/@alifd/theme-design-pro@0.6.2/dist/next-noreset.min.css',
-    // },
-    // { rel: 'stylesheet', href: '/style.css' },
+    {
+      rel: 'stylesheet',
+      href: 'https://unpkg.com/@alifd/theme-design-pro@0.6.2/dist/next-noreset.min.css',
+    },
+    { rel: 'stylesheet', href: '/style.css' },
   ],
   navs: [
     { title: '指南', path: 'guide' },

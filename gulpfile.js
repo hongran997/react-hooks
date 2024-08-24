@@ -35,7 +35,7 @@ gulp.task('declaration', function () {
 
 // 生成 readme文件
 gulp.task('readme', async function () {
-  src(['../../RADEME.md']).pipe(gulp.dest('./'));
+  src(['../../README.md']).pipe(gulp.dest('./'));
 });
 
 exports.default = gulp.series('clean', 'es', 'cjs', 'declaration', 'readme');

@@ -6,4 +6,4 @@ packages/hooks/dist/**/*
 packages/hooks/es/**/*
 packages/hooks/lib/**/*
 packages/hooks/metadata.json
-packages/hooks/RADEME.md
+packages/hooks/README.md

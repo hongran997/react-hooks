@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/react-hooks-host/:match*",
+      "destination": "/:match*"
+    }
+  ]
+}

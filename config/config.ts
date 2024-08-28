@@ -20,8 +20,8 @@ export default {
   ],
   title: 'React hooks',
   mode: 'site',
-  favicon: '/react-hooks-host/avatar.png',
-  logo: '/react-hooks-host/avatar.png',
+  // favicon: '/react-hooks-host/avatar.png',
+  // logo: '/react-hooks-host/avatar.png',
   manifest: {},
   hash: true,
   alias: {
@@ -39,7 +39,7 @@ export default {
     { rel: 'stylesheet', href: '/react-hooks-host/style.css' },
   ],
   navs: [
-    { title: '指南', path: 'guide' },
+    { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
     { title: 'GitHub', path: 'https://github.com/hongran997/react-hooks' },
   ],

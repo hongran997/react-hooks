@@ -1,6 +1,7 @@
 {
   "umi.css": "/react-hooks-host/umi.3dfdd0be.css",
-  "umi.js": "/react-hooks-host/umi.c2fd542c.js",
+  "umi.js": "/react-hooks-host/umi.e0f19dc8.js",
+  "/~demos/uselatest-demo/index.html": "/react-hooks-host//~demos/uselatest-demo/index.html",
   "/~demos/usetoggle-demo1/index.html": "/react-hooks-host//~demos/usetoggle-demo1/index.html",
   "/~demos/usetoggle-demo2/index.html": "/react-hooks-host//~demos/usetoggle-demo2/index.html",
   "404.html": "/react-hooks-host/404.html",
@@ -8,6 +9,7 @@
   "public/avatar.png": "/react-hooks-host/avatar.png",
   "guide/index.html": "/react-hooks-host/guide/index.html",
   "hooks/index.html": "/react-hooks-host/hooks/index.html",
+  "hooks/use-latest/index.html": "/react-hooks-host/hooks/use-latest/index.html",
   "hooks/use-toggle/index.html": "/react-hooks-host/hooks/use-toggle/index.html",
   "index.html": "/react-hooks-host/index.html",
   "public/logo.png": "/react-hooks-host/logo.png",

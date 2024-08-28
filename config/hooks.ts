@@ -65,6 +65,9 @@ export const menus = [
   },
   {
     title: '进阶',
-    // children: ['useLatest', 'useMemoizedFn'],
+    children: [
+      'useLatest',
+      // 'useMemoizedFn'
+    ],
   },
 ];

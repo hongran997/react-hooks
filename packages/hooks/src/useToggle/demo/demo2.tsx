@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import useToggle from '../index'; // Why
+import useToggle from '../index';
 
 export default () => {
   const [state, { toggle, set, setLeft, setRight }] = useToggle('Hello', 'World');

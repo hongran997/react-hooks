@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: '生命周期',
-    // children: ['useUnmount', 'useUnmountedRef'],
+    children: ['useUnmount', 'useUnmountedRef'],
   },
   {
     title: '请求',

@@ -1,12 +1,10 @@
 import { renderHook } from '@testing-library/react';
 import useLatest from '../index';
 
-// TODO
 const setUp = (val) => renderHook((state) => useLatest(state), { initialProps: val });
 
 describe('useLatest', () => {
   it('useLatest with basic variable should work', async () => {
-    // TODO
     const { result, rerender } = setUp(0);
 
     rerender(1);

@@ -16,7 +16,7 @@ export default () => {
     const interval = setInterval(() => {
       setCount(latestCountRef.current + 1);
     }, 1000);
-    return () => clearInterval(interval); // TODO: 如果添加了这段代码，会在组件卸载之后删除定时器。否则，定时器继续运行
+    return () => clearInterval(interval); // 如果添加了这段代码，会在组件卸载之后删除定时器。否则，定时器继续运行
   }, []);
 
   return (
